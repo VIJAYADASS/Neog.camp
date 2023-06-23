@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+} 
+:root{
+    --primary-color: rgb(251 113 133);
+    --darkgrey-color:var(--darkgrey-color);
+}
+
+/* containers */
+.containers { 
+    padding: 0rem 1rem;
+}
+
+/* links */
+.link{
+     text-decoration: none;
+     margin: auto;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+/* list */
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+/* Nav */
+.navigation{
+    background-color: var(--primary-color);
+    color: rgb(2 44 34);
+    padding: 1rem;  
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius:1rem;
+}
+
+.navigation .nav-brand{
+     font-weight:  bold;
+     color: darkblue;
+     font-size:x-large;
+} 
+    
+.navigation .nav-pills {
+    text-align: right;
+    font-size: large;
+}
+
+.navigation .link{
+    color: rgb(37, 9, 219);
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header **/
+.photo{
+    padding: 1rem;
+    
+}
+
+.photo .photo-img{
+    max-width: 500px;
+    display:flex;
+    margin: auto;
+}
+
+header h3{
+    text-align:  center;
+    background-color:  lightblue;
+}
+.photo .photo-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+}
+.photo .photo-heading .heading {
+    color: darkslateblue; 
+    
+}
+
+/** section **/
+
+.section{
+    text-align: center;
+    padding: 1rem;
+     
+}
+
+.section h3 {
+    text-align: center;
+    padding: 1rem; 
+
+}
+
+.ow{
+    text-align: center;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+
+/**footer**/
+
+.footer{
+    background-color:var(--primary-color);
+    padding: 1rem 1rem;
+    margin-top: 20px;
+    text-align:  center;
+    color: rgb(38, 6, 243);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: whitesmoke;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size:large;
+    color: darkblue;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.footer ul{
+    padding-inline-start: 6px;
+}
+

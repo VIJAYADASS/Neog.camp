@@ -11,16 +11,35 @@
             margin: 1px;
             display: block;
             padding: 1px;
+            margin-bottom: 25px;
+            margin-left: 10px;
+            border-color: brown;
+            text-align:justify;
 
         }
+
+        #Output{
+            height: 10vh;
+            width: 30%;
+            border: 1px solid lightseagreen;
+            padding: 1px;
+            margin: 1px;
+            margin-top: 10px;
+            margin-left: 25px;
+        }
+        
         
     </style>
  </head>
  <body>
     <h1>Talk me</h1>
     <textarea id="txt-input"
-    placeholder=" Something type in english here we will convert to me"></textarea>
+    placeholder=" Something type in english here...we will convert to Talk me!"></textarea>
     <button id="btn-translate">Submit</button>
+
+
+    <div style="font-size: larger;" > <b>[Output will be shown below]</b></div>
+    <div id="Output">Get Answer</div>
     <script src="apps.js" type="text/JavaScript"></script>
  </body>
  </html>

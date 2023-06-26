@@ -1,2 +1,2 @@
-var button = document.querySelector("#btn-translate");
-console.log(button);
+var btntranslate = document.querySelector("#btn-translate");
+console.log(btntranslate);

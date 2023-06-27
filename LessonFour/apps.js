@@ -5,7 +5,7 @@ var outputDiv = document.querySelector("#Output");
  
 
 function clickEventHandler() {
-    outputDiv.innerText = "Talk me"  +  txtInput.value;
+    outputDiv.innerText = "Talk me  "+  txtInput.value;
 };
 
 btntranslate.addEventListener ("click", clickEventHandler) 

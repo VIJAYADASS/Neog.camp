@@ -16,12 +16,8 @@ body{
 } 
 
 nav{
-    background-color:  rgb(253 186 116);
+    background-color: rgb(254 240 138);
     text-align:  center;    
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
     padding-top: 0.5rem;
     font-family: 'Caveat', cursive;
 }
@@ -41,7 +37,7 @@ textarea{
     font-family: 'Caveat', cursive;
 }
 button{
-    background-color: rgb(253 186 116);
+    background-color:rgb(254 240 138);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
@@ -66,12 +62,8 @@ footer{
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color:  rgb(253 186 116);
+    background-color:  rgb(254 240 138);
     text-align: center;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
     font-size :larger ;
      
 }

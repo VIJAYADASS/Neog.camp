@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translate app</title>
+    <link href="styles.css" rel="stylesheet">
  </head>
  <body>
-    <nav class="container-center">
-        <div style="font-size: 2px; padding: 1rem;"> Talk Dolan </div>
+        <div style="font-size: 2rem; padding: 1rem;"> <b> Talk Dolan </b> </div>
     </nav>
-    
-    <textarea id="txt-input"
-    placeholder=" Something type in english here...we will convert to Talk me!"></textarea>
-    <button id="btn-translate">Translate to Dolan</button>
 
-    <div style="font-size: larger;" > <b>[Output will be shown below]</b></div>
-    <div id="Output"></div>
-    <script src="apps.js" type="text/JavaScript"></script>
+    <main>
+
+    <textarea id="translate-input"
+        placeholder=" Something type in english here...we will convert to Talk me!"></textarea>
+    <button id="translate-button">Translate to Dolan</button>
+    <div><b>[Output will be shown below]</b></div>
+    <div id=" Translate-output" style="padding: 1rem ; font-size: large;"></div>
+
+    </main>
+
     <footer>
         <div style="font-size: x-large;">About</div>
         <p>"Are you a  fan of Dolan? did you know that the dolan they say is an actual language. Use the translator to convert your text from English to Dolan speak "</p>
     </footer>
+
+    <script src="apps.js" type="text/JavaScript"></script>
  </body>
  </html>

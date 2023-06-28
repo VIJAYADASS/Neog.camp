@@ -57,17 +57,6 @@ button{
     border: 1px solid gray;
     
 }
-.photo{
-    padding: 1rem;
-    
-}
-
-.photo .photo-img{
-    max-width: 500px;
-    display:flex;
-    margin: auto;
-}
- 
 
 footer{
     font-family: 'Dancing Script', cursive;

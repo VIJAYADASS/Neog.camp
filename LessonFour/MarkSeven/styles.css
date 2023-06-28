@@ -13,7 +13,6 @@ body{
     font-family: 'Caveat', cursive;
     margin: 0;
     color:#333333;
-    width: 500px;
 }
 
 nav{
@@ -32,7 +31,7 @@ main{
 textarea{
     box-sizing: border-box;
     display: block;
-    width: 50%;
+    width: 65%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
@@ -51,16 +50,14 @@ button{
 
 #Output{
     box-sizing: border-box;
-    width: 60%;
+    width: 65%;
     min-height: 10vh;
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid gray;
     
 }
-section{
-
-}
+ 
 
 footer{
     font-family: 'Dancing Script', cursive;

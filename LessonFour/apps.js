@@ -16,19 +16,19 @@ function errorhandler(error) {
     alert("Try again later")
 }
 
-function clickEventHandler() {
+function clickHandler() {
      
     var inputText = txtInput.value; //ip
 
-    // call server
+    // call server processing 
     fetch(gettranslation(inputText))
-    .then(response => response.json())
-    //.then(json => console.log(json.contents.translated))
+    .then(response => response.json()) // the processing part went to server
+     
     .then(abc => {
         var translatedText = abc.contents.translated;
-        outputDiv.innerText = translatedText;
+        outputDiv.innerText = translatedText; //op
     })
 };
 
-btntranslate.addEventListener ("click", clickEventHandler) 
+btntranslate.addEventListener ("click", clickHandler) 
     

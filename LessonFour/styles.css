@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ 
 
 *{
     box-sizing: border-box;
@@ -9,7 +10,7 @@
     --black:#333333;
 }
 body{
-    font-family:'Poppins', sans-serif;
+    font-family: 'Dancing Script', cursive;
     margin: 0;
     color:#333333
 } 
@@ -22,7 +23,7 @@ nav{
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     padding-top: 0.5rem;
-    font-style: italic;
+    font-family: 'Dancing Script', cursive;
 }
 
 main{
@@ -37,14 +38,14 @@ textarea{
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 button{
     background-color: rgb(253 186 116);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: large;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -60,6 +61,7 @@ button{
 }
 
 footer{
+    font-family: 'Dancing Script', cursive;
     position: fixed;
     bottom: 0;
     width: 100%;

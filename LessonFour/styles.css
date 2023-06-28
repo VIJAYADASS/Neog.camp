@@ -47,7 +47,7 @@ button{
     padding: 1rem 2rem;
     font-family: 'Dancing Script', cursive;
     font-size: large;
-    border-top-left-radius: 1rem;
+   
     border-bottom-right-radius: 1rem;
 }
 
@@ -72,6 +72,7 @@ footer{
     border-bottom-right-radius: 2rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    font-size :larger ;
      
 }
 footer p {

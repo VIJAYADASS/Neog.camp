@@ -4,7 +4,7 @@ var outputDiv = document.querySelector("#Output"); //get output
  
 //var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" 
 
-var serverURL = "https://api.funtranslations.com/translate/groot.json" // we want to talk to the dolan server
+var serverURL = "https://api.funtranslations.com/translate/minion.json" // we want to talk to the dolan server
 
 /*fetch()*/
 function gettranslation(input){
@@ -25,8 +25,8 @@ function clickHandler() {
     fetch(gettranslation(inputText))
     .then(response => response.json()) // the processing part went to server
      
-    .then(convert => {
-        var translatedText = convert.contents.translated;
+    .then(abc => {
+        var translatedText = abc.contents.translated;
         outputDiv.innerText = translatedText; //op
     })
 };

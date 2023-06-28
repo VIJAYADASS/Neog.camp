@@ -5,7 +5,7 @@
 }   
 
 :root{
-    --width-break: 600px;
+    --width-break: 500px;
     --black:#333333;
 }
 body{
@@ -58,7 +58,7 @@ footer{
     padding: 1rem;
     background-color:  rgb(253 186 116);
     text-align: center;
-    
+     
 }
 footer p {
     max-width: var(--width-break);

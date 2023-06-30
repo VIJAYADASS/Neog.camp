@@ -5,7 +5,8 @@ body{
 } 
 :root{
     --primary-color:rgb(165 243 252);
-    --darkgrey-color:var(--darkgrey-color);
+    --secondary-color: whitesmoke;
+     
 }
 
 /* containers */
@@ -25,9 +26,11 @@ body{
     font-weight: normal;
 }
 .link-secondary {
-    color: var(--primary-color);
+    background-color:var(--secondary-color);
     border-radius: 2rem;
+    color: black;
     border: 1px solid var(--primary-color);
+    font-weight: normal;
 
 }
 /* list */
@@ -140,15 +143,13 @@ ul {
 
 .ow{
     text-align: center;
-    background-color:lightpink;
+    background-color:lightgreen;
     margin-bottom: 20px;
 }
 
 .a{
     display:inline-block;
     padding:10px 20px;
-    background-color: lightpink;
-    color:whitesmoke;
     text-decoration: none;
     border-radius: 5px;
 

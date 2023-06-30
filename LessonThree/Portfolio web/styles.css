@@ -4,8 +4,8 @@ body{
     font-family: 'Poppins', sans-serif;
 } 
 :root{
-    --primary-color:rgb(165 243 252);
-    --secondary-color: whitesmoke;
+    --primary-color: rgb(232 121 249);
+    --secondary-color: white;
      
 }
 
@@ -20,17 +20,19 @@ body{
      margin: auto;
 }
 .link-primary{
-    background-color: rgb(136 19 553);
-    border-radius: 2rem;
-    color: whitesmoke;
+    background-color:rgba(100, 148, 237, 0.589);
+    border-radius: 3rem;
+    color:brown;
     font-weight: normal;
+    margin: 5rem auto;
+
 }
 .link-secondary {
     background-color:var(--secondary-color);
     border-radius: 2rem;
     color: black;
     border: 1px solid var(--primary-color);
-    font-weight: normal;
+    margin: 10rem auto;
 
 }
 /* list */
@@ -45,7 +47,7 @@ body{
 /* Nav */
 .navigation{
     background-color: var(--primary-color);
-    color: rgb(2 44 34);
+    color: dRK;
     padding: 1rem;  
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius:1rem;
@@ -84,7 +86,7 @@ body{
 
 header h3{
     text-align:  center;
-    background-color: lightpink;
+     
 }
 .photo .photo-heading{
     text-align: center;
@@ -143,7 +145,7 @@ ul {
 
 .ow{
     text-align: center;
-    background-color:lightgreen;
+    background-color:rgb(207 250 254);
     margin-bottom: 20px;
 }
 
